@@ -28,9 +28,7 @@
 
         .flex-container {
             display: flex;
-            background-color: #006D6D;
-            justify-content: space-around;
-            padding: 20px;
+            background-color: #006B6B;
         }
 
         .header-title{
@@ -41,10 +39,69 @@
         }
 
         .header-slogan{
-            color:#008584;
+            color:#009e9e;
             font-size: 20px;
             font-weight: 500;
             margin-bottom: 15px;
+        }
+
+        .box1-container{
+            background-color: #006A6A;
+            color: white;
+            padding: 15px;
+            width: 50%;
+        }
+
+        .subscription-title{
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .cash-value{
+            font-size: 25px;
+            font-weight: 700;
+            padding: 5px;
+        }
+
+        .month-cash{
+            margin-left: 13px;
+            font-style: italic;
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        .btn-subs{
+            width: 100%;
+            padding: 15px 32px;
+            color: #006A6A;
+            background-color: #cccccc;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 4px;
+            border: none;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        .btn-subs:hover{
+            background-color: white;
+        }
+
+        .box2-container{
+            background-color: #009e9e;
+            color: white;
+            width: 50%;
+            padding: 15px;
+        }
+
+        .access{
+            color: white;
+        }
+
+        .box2-container ul{
+            padding: 20px;
+            margin-left: 12px;
         }
 
     </style>
@@ -67,11 +124,39 @@
             </div>
         </div>
         <div class="flex-container">
-            <div>
-                1 coluna
+            <div class="box1-container">
+                <div class="subscription-title">
+                    Assinatura mensal: 
+                </div>
+                <div>
+                    <span class="cash-value">
+                        R$ 99,99
+                    </span>
+                    <span class="month-cash">
+                        por mês
+                    </span>
+                </div>
+
+                <div>
+                    Cancele a qualquer momento.
+                </div>
+                
+                <button class="btn-subs">
+                    Assine Agora
+                </button>
             </div>
-            <div>
-                2 coluna
+            <div class="box2-container">
+                <span class="access">
+                    Você terá acesso:
+                </span>
+                <ul>
+                    <li>Projetos exclusivos</li>
+                    <li>Tutoriais</li>
+                    <li>Lives Semanais</li>
+                    <li>Material didático especializado</li>
+                    <li>Fórum</li>
+                    <li>Ofertas de empregos</li>
+                </ul>
             </div>
         </div>
     </div>
